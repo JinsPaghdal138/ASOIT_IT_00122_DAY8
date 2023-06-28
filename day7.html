@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="menu">
+<li>Homepage</li>
+<li>services</li>
+<li>Homepage</li>
+<li>contact</li>
+</ul>
+
+
+<script>
+    let menu = document.getElementById('menu');
+    
+    let li = document.createElement('li');
+    
+    li.textContent="apple";
+    menu.replaceChild(li,menu.firstElementChild);
+</script>
+
+</body>
+</html>  
